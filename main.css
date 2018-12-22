@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#download, #loading {
+    visibility: hidden;
+}
+#container {
+    padding: 1em;
+}
+
+#download {
+   margin-left: 50%;
+   margin-right: 50%;
+   font-size: 2em;
+   text-align: center;
+   padding: 1em;
+   border-radius: 0.2em;
+   border: none;
+   background: white;
+}
+
+body {
+    background: #438496;
+}
+
+header {
+    background: #CD5360;
+}
+p {
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: left;
+    padding: 1em;
+}
+
+input {
+    background: #B37D4E;
+    padding: 1em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    width: 100%;
+}

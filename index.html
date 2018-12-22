@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+</head>
+<body>
+    <header>
+        <p id="headertext">
+           Please click on browse and upload the excel file with the school names and districts.
+           An excel file with the school addresses will be available to download after the file has finished processing.
+        </p>
+    </header>
+    <form enctype="multipart/form-data">
+        <input id="upload" type="file" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" name="files[]">
+    </form>
+    <div id="container">
+            <button id="download">Download</button>
+    </div>
+    <p id="loading">loading</p>
+    <script type="text/javascript" lang="javascript" src="xlsx.full.min.js"></script>    
+    <script async="" src="https://cdn.rawgit.com/eligrey/FileSaver.js/e9d941381475b5df8b7d7691013401e171014e89/FileSaver.min.js"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCB9Q84om9Qj1lKCSf8z3MTFdNGIYIXq5k&libraries=places"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
